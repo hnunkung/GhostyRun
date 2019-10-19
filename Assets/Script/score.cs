@@ -11,8 +11,8 @@ public class score : MonoBehaviour
     void Update()
     {
         if(player){
-        	scoreText.text = player.position.z.ToString("0");
-        	GM.score = player.position.z;
+        	scoreText.text = ((player.position.z)*4).ToString("0");
+        	GM.score = (player.position.z)*4;
         }
         
         
