@@ -2,17 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class movecam : MonoBehaviour
+public class GM : MonoBehaviour
 {
+	public static float vertVel=0;
+	public static int coinTotal=0;
+	public static float timeTotal=0;
+	public static float score=0;
     // Start is called before the first frame update
     void Start()
     {
-        // GetComponent<Rigidbody>().velocity = new Vector3(0,GM.vertVel,3);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-     	GetComponent<Rigidbody>().velocity = new Vector3(0,GM.vertVel,3);   
+        
     }
 }
