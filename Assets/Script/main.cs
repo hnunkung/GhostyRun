@@ -39,11 +39,15 @@ public class main : MonoBehaviour
         }
         if(Input.GetKeyDown(moveU)) {
 
-        	transform.position = new Vector3(transform.position.x, -2.0f, transform.position.z);
-        	StartCoroutine (updown());
+        	transform.position = new Vector3(transform.position.x, -1.35f, transform.position.z);
+        	StartCoroutine (stopUp());
         	controlLocked ="y";
-
-        
+        }
+        if(Input.GetKeyDown(moveD)) {
+        	//เปลี่ยน
+        	transform.position = new Vector3(transform.position.x, -2.65f, transform.position.z);
+        	StartCoroutine (stopDown());
+        	controlLocked ="y";
         }
         
     }
@@ -69,9 +73,15 @@ public class main : MonoBehaviour
     	horizVel = 0;
     	controlLocked ="n";
     }
-    IEnumerator updown(){
+    IEnumerator stopUp(){
     	yield return new WaitForSeconds(0.7f);
-    	transform.position = new Vector3(transform.position.x, -2.65f, transform.position.z);
+    	//กลับมาเป็นเหมือนเดิม
+    	transform.position = new Vector3(transform.position.x, -2f, transform.position.z);
+    	controlLocked ="n";
+    }
+    IEnumerator stopDown(){
+    	yield return new WaitForSeconds(0.7f);
+    	transform.position = new Vector3(transform.position.x, -2f, transform.position.z);
     	controlLocked ="n";
     }
 

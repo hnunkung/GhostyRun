@@ -14,7 +14,7 @@ public class effects : MonoBehaviour
     void Update()
     {
         if(gameObject.name == "coin"){
-        	transform.Rotate(0,0,3);
+        	transform.Rotate(0,0,10);
         }
     }
 }
