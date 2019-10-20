@@ -12,11 +12,10 @@ public class main : MonoBehaviour
     public KeyCode moveD;
 
     public float horizVel = 0;
-    public int laneNum = 2;
+    public int laneNum = 0;
     public string controlLocked = "n";
-    private float jumpSpeed = 10;
     private Rigidbody rigidBody;
-    public bool onGound = true;
+
 
     void Start()
     {
@@ -38,10 +37,12 @@ public class main : MonoBehaviour
         	laneNum +=1;
         	controlLocked ="y";
         }
-        if(Input.GetKeyDown(moveU) && onGound) {
-            
-            rigidBody.AddForce(Vector3.up*jumpSpeed, ForceMode.Impulse);
-            onGound = false;
+        if(Input.GetKeyDown(moveU)) {
+
+        	transform.position = new Vector3(transform.position.x, -2.0f, transform.position.z);
+        	StartCoroutine (updown());
+        	controlLocked ="y";
+
         
         }
         
@@ -53,16 +54,9 @@ public class main : MonoBehaviour
     		Destroy (gameObject);
     		SceneManager.LoadScene("gameover");
     	}
-    	//เหมือนเก็บ item 	เก็บแล้วitemหายไป แต่เราไม่ตาย
     	
-        onGound =true;
-
-     //    if(other.gameObject.name == "coin"){
-    	// 	Destroy (other.gameObject);
-    	// 	GM.coinTotal+=10;
-    		
-    	// }
     }
+    //เหมือนเก็บ item 	เก็บแล้วitemหายไป แต่เราไม่ตาย
     void OnTriggerEnter(Collider other){
     	if(other.gameObject.name == "coin"){
     		Destroy (other.gameObject);
@@ -73,6 +67,11 @@ public class main : MonoBehaviour
     IEnumerator stopSlide(){
     	yield return new WaitForSeconds(.5f);
     	horizVel = 0;
+    	controlLocked ="n";
+    }
+    IEnumerator updown(){
+    	yield return new WaitForSeconds(0.7f);
+    	transform.position = new Vector3(transform.position.x, -2.65f, transform.position.z);
     	controlLocked ="n";
     }
 
