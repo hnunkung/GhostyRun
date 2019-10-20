@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GM : MonoBehaviour
 {
-	public static float vertVel=0;
+	public static float vertVel;
 	public static int coinTotal=0;
 	public static float timeTotal=0;
 	public static float score=0;
