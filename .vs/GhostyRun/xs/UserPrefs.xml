@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{515A16F5-5949-3DE6-7553-FF9C5404BEE6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/TileManager.cs">
     <Files>
-      <File FileName="Assets/Script/main.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/main.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/main.cs" Line="52" Column="37" IsPinned="True" />
+      <File FileName="Assets/Yuponic/YuME/Scripts/YuME_tileGizmo.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/TileManager.cs" Line="29" Column="26" />
+      <File FileName="Assets/Script/movecam.cs" Line="29" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +12,13 @@
           <Node name="GhostyRun" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Script" expanded="True">
-                <Node name="main.cs" selected="True" />
+                <Node name="TileManager.cs" selected="True" />
+              </Node>
+              <Node name="TextMesh Pro" expanded="True" />
+              <Node name="Yuponic" expanded="True">
+                <Node name="YuME" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -20,7 +28,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6ac9c4f9-42d9-4e85-8820-f84136617155" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="91289232-78d9-4d24-ab7e-5104e10a3745" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
