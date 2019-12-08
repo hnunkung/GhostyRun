@@ -63,6 +63,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Aura\Editor\Drawers\ColorCircularPickerDrawer.cs" />
+    <Compile Include="Assets\Aura\Editor\Drawers\Texture3DPreviewDrawer.cs" />
+    <Compile Include="Assets\Aura\Editor\Editors\AuraEditor.cs" />
+    <Compile Include="Assets\Aura\Editor\Editors\AuraLightEditor.cs" />
+    <Compile Include="Assets\Aura\Editor\Editors\AuraVolumeEditor.cs" />
+    <Compile Include="Assets\Aura\Editor\Editors\CreateTexture3DAssetTool.cs" />
+    <Compile Include="Assets\Aura\Editor\Editors\Texture3DEditor.cs" />
+    <Compile Include="Assets\Aura\Editor\Enums\Texture3DReadingOrderEnum.cs" />
+    <Compile Include="Assets\Aura\Editor\Extensions\Texture3DExtensions.cs" />
+    <Compile Include="Assets\Aura\Editor\Helpers\GuiHelpers.cs" />
+    <Compile Include="Assets\Aura\Editor\Helpers\MeshHelpers.cs" />
+    <Compile Include="Assets\Aura\Editor\Helpers\PreviewRenderUtilityHelpers.cs" />
+    <Compile Include="Assets\Aura\Editor\Statics\GuiStyles.cs" />
     <Compile Include="Assets\Yuponic\YuME\Editor\Utils\YuME_brushFunctions.cs" />
     <Compile Include="Assets\Yuponic\YuME\Editor\Utils\YuME_customBrushFunctions.cs" />
     <Compile Include="Assets\Yuponic\YuME\Editor\Utils\YuME_customBrushNameDialog.cs" />
@@ -78,6 +91,8 @@
     <Compile Include="Assets\Yuponic\YuME\Editor\Utils\YuME_tileFunctions.cs" />
     <Compile Include="Assets\Yuponic\YuME\Editor\Utils\YuTools_Utils.cs" />
     <Compile Include="Assets\Yuponic\YuME\Editor\YuME_mapEditor.cs" />
+    <None Include="Assets\Aura\Editor\Shaders\ColorFieldDrawerShader.shader" />
+    <None Include="Assets\Aura\Editor\Shaders\Texture3DPreviewShader.shader" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>/Users/rattanawichsinbowornphichai/Documents/GitHub/GhostyRun/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>

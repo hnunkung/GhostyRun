@@ -1,20 +1,24 @@
 ﻿<Properties StartupConfiguration="{515A16F5-5949-3DE6-7553-FF9C5404BEE6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/TileManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ultra Skybox Fog/Manual.txt">
     <Files>
-      <File FileName="Assets/Script/main.cs" Line="52" Column="37" IsPinned="True" />
-      <File FileName="Assets/Yuponic/YuME/Scripts/YuME_tileGizmo.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/TileManager.cs" Line="29" Column="26" />
-      <File FileName="Assets/Script/movecam.cs" Line="29" Column="1" />
+      <File FileName="Assets/Script/main.cs" Line="57" Column="7" IsPinned="True" />
+      <File FileName="Assets/Script/TileManager.cs" Line="14" Column="32" />
+      <File FileName="Assets/Script/movecam.cs" Line="25" Column="47" />
+      <File FileName="Assets/Script/GM.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/effects.cs" Line="17" Column="32" />
+      <File FileName="Assets/playGame.cs" Line="15" Column="27" />
+      <File FileName="Assets/Ultra Skybox Fog/Manual.txt" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GhostyRun" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Script" expanded="True">
-                <Node name="TileManager.cs" selected="True" />
-              </Node>
+              <Node name="Script" expanded="True" />
               <Node name="TextMesh Pro" expanded="True" />
+              <Node name="Ultra Skybox Fog" expanded="True">
+                <Node name="Manual.txt" selected="True" />
+              </Node>
               <Node name="Yuponic" expanded="True">
                 <Node name="YuME" expanded="True">
                   <Node name="Scripts" expanded="True" />
@@ -28,7 +32,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="91289232-78d9-4d24-ab7e-5104e10a3745" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9d906130-2a35-4b98-8322-23782c741b68" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -11,7 +11,7 @@ public class TileManager : MonoBehaviour
 	private float tileLength = 16.0f;
 	private int amnTilesOnScreen = 4;
     private List<GameObject> activetiles;
-    private float safezone = 16.0f;
+    private float safezone = 20f;
     private int state = 0;
 
     // Start is called before the first frame update
