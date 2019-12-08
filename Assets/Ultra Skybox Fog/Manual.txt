@@ -1,4 +1,4 @@
-Thanks for downloading Ultra Skybox Fog!
+   Thanks for downloading Ultra Skybox Fog!
 
 Using this shader is very simple, to set it up, please follow the following instructions:
 
